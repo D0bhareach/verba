@@ -6,41 +6,58 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>511</width>
-    <height>295</height>
+    <width>600</width>
+    <height>450</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
-     <widget class="QLabel" name="label">
-      <property name="font">
-       <font>
-        <pointsize>20</pointsize>
-       </font>
-      </property>
-      <property name="text">
-       <string>Hello world in CMake with Qt</string>
-      </property>
-      <property name="scaledContents">
-       <bool>false</bool>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
+    <widget class="QStackedWidget" name="stackedWidget">
+        <widget class="QWidget" name="page1">
+        <layout class="QHBoxLayout" name="pageOneLayout">
+            <item>
+                <widget class="QPushButton" name="pushButtonPage1">
+                    <property name="text">
+                        <string>Next Page</string>
+                    </property>
+                </widget>
+            </item>    
+        </layout>
+        </widget>
+        <widget class="QWidget" name="page2">
+        <layout class="QHBoxLayout" name="pageTwoLayout">
+            <item>
+                <widget class="QPushButton" name="pushButtonPage2">
+                    <property name="text">
+                        <string>Previous Page</string>
+                    </property>
+                          <property name="font">
+                            <font>
+                                <pointsize>20</pointsize>
+                            </font>
+                        </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>280</width>
+                            <height>40</height>
+                        </size>
+                    </property>
+                </widget>
+            </item>
+                    <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                    </property>
+            </layout>
+        </widget>
+    </widget>
+
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>511</width>
+     <width>600</width>
      <height>30</height>
     </rect>
    </property>
