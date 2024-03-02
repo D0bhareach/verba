@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingsPage</class>
+    <widget class="QWidget" name="settingspage">
+    <layout class="QHBoxLayout" name="eiditpageLayout">
+        <item>
+            <widget class="QLabel" name="settingspageLabel">
+                <property name="text">
+                    <string>Settings Page placeholder Label</string>
+                </property>
+                <property name="alignment">
+                    <set>Qt::AlignHCenter | Qt::AlignVCenter</set>
+                </property>
+            </widget>
+        </item>    
+    </layout>
+    </widget>
+</ui>

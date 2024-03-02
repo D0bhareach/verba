@@ -12,6 +12,9 @@ qt_standard_project_setup()
 
 # add all subdirectories of the Project including src/
 add_subdirectory(src)
+add_subdirectory(src/pages/home)
+add_subdirectory(src/pages/edit)
+add_subdirectory(src/pages/settings)
 
 # set directory to executable
 set_target_properties(verba PROPERTIES

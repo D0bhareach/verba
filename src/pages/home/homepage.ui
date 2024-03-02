@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HomePage</class>
+    <widget class="QWidget" name="homepage">
+    <layout class="QHBoxLayout" name="homepageLayout">
+        <item>
+            <widget class="QLabel" name="homepageLabel">
+                <property name="text">
+                    <string>Home Page Label</string>
+                </property>
+                <property name="alignment">
+                    <set>Qt::AlignHCenter | Qt::AlignVCenter</set>
+                </property>
+            </widget>
+        </item>    
+    </layout>
+    </widget>
+</ui>
