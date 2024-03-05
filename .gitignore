@@ -1,6 +1,7 @@
 .cache/
 build/
 LICENSE
+CMakeLists.txt.user
 # Prerequisites
 *.d
 

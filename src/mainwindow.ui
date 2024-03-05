@@ -13,26 +13,49 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-    <widget class="QStackedWidget" name="stackedWidget">
-    </widget>
-
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
      <width>600</width>
-     <height>30</height>
+     <height>25</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuFile">
+   <widget class="QMenu" name="menuPageNavigation">
     <property name="title">
-     <string>&amp;File</string>
+     <string/>
     </property>
+    <property name="icon">
+     <iconset theme="mail-mark-notjunk">
+      <normaloff>.</normaloff>.</iconset>
+    </property>
+    <addaction name="actionHome"/>
+    <addaction name="actionEdit"/>
+    <addaction name="actionSettings"/>
    </widget>
-   <addaction name="menuFile"/>
+   <addaction name="menuPageNavigation"/>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionHome">
+   <property name="text">
+    <string>Home</string>
+   </property>
+  </action>
+  <action name="actionEdit">
+   <property name="text">
+    <string>Edit</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="text">
+    <string>Settings</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
